@@ -50,15 +50,8 @@ public:
             cout << endl;
         }
     }
-
-    bool isEmpty() {
-        return top == -1;
-    }
-
-    bool isFull() {
-        return top == SIZE-1;
-    }
 };
+
 
 
 class Queue {
@@ -70,10 +63,10 @@ public:
     Queue() { front = rear = -1; }
 
     void enqueue(int item) {
-        if(isFull()) {
+        if(rear == SIZE - 1) {
             cout << "Queue Overflow!" << endl;
         } else {
-            if(isEmpty()) front = 0;
+            if(front == -1 || front > rear) front = 0;
             rear++;
             arr[rear] = item;
             cout << item << " enqueued to queue." << endl;
@@ -81,7 +74,7 @@ public:
     }
 
     void dequeue() {
-        if(isEmpty()) {
+        if(front == -1 || front > rear) {
             cout << "Queue Underflow!" << endl;
         } else {
             cout << arr[front] << " dequeued from queue." << endl;
@@ -91,7 +84,7 @@ public:
     }
 
     void display() {
-        if(isEmpty()) {
+        if(front == -1 || front > rear) {
             cout << "Queue is empty!" << endl;
         } else {
             cout << "Queue elements: ";
@@ -101,17 +94,8 @@ public:
             cout << endl;
         }
     }
-
-
-    bool isEmpty() {
-        return front == -1 || front > rear;
-    }
-
-
-    bool isFull() {
-        return rear == SIZE-1;
-    }
 };
+
 
 
 int main() {
