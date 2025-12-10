@@ -65,7 +65,7 @@ Implemented using dynamic memory allocation, `Node` objects, and a `head` pointe
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[Your-Username]/Cpp-Basic-Data-Structures-GUI.git
+    git clone [https://github.com/ahmedelsayedali1/Data-structure-project.git]
     ```
 2.  **Compile the code:** Use a C++ compiler (e.g., g++):
     ```bash
