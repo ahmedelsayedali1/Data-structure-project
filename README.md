@@ -3,7 +3,7 @@ This repository showcases a collection of data structure implementations, includ
 
 # 💾 Basic Data Structures Implementation in C++
 
-This repository contains a C++ console application that implements and allows interactive testing of four fundamental data structures: Stack, Queue, Array, and Singly Linked List. All structures (except the Linked List) are implemented using fixed-size arrays defined by the preprocessor directive `#define SIZE 1`.
+This repository contains a C++ console application that implements and allows interactive testing of four fundamental data structures: Stack, Queue, Array, and Singly Linked List. All structures (except the Linked List) are implemented using fixed-size arrays defined by the preprocessor directive `#define SIZE 100`.
 
 The program utilizes an interactive main menu to switch between data structure operations.
 
