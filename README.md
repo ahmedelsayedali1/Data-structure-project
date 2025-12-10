@@ -1,5 +1,5 @@
 # Data-structure-project
-This repository showcases a collection of data structure implementations, including arrays, linked lists, stacks, queues, trees, and graph representations. It serves as part of my academic projects and personal learning archive.
+This repository showcases a collection of data structure implementations, including arrays, linked lists, stacks, queues. It serves as part of my academic projects and personal learning archive.
 
 # 💾 Basic Data Structures Implementation in C++
 
@@ -71,4 +71,5 @@ Implemented using dynamic memory allocation, `Node` objects, and a `head` pointe
     ```bash
      Data-structure-project.cpp
     ```
+
 
