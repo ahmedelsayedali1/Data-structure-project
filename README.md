@@ -67,9 +67,10 @@ Implemented using dynamic memory allocation, `Node` objects, and a `head` pointe
     ```bash
     git clone [https://github.com/ahmedelsayedali1/Data-structure-project.git]
     ```
-2.  **Compile the code:** Use a C++ compiler (e.g., g++):
+2.  **Compile the code:** Use a C++ compiler :
     ```bash
      Data-structure-project.cpp
     ```
+
 
 
