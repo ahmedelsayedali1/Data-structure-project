@@ -69,5 +69,6 @@ Implemented using dynamic memory allocation, `Node` objects, and a `head` pointe
     ```
 2.  **Compile the code:** Use a C++ compiler (e.g., g++):
     ```bash
-    g++ Data-structure-project.cpp
+     Data-structure-project.cpp
     ```
+
